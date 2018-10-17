@@ -17,7 +17,7 @@ find_executable() {
   elif type extract_url >/dev/null 2>&1; then
     echo "extract_url"
   elif type urlscan >/dev/null 2>&1; then
-    echo "urlscan"
+    echo "urlscan -d"
   fi
 }
 
